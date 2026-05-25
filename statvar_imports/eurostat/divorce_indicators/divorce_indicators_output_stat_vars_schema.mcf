@@ -1,0 +1,62 @@
+Node: dcid:DivorceEvent
+typeOf: dcid:Thing
+name: "Divorce Event"
+isProvisional: dcs:True
+
+Node: dcid:denominatorPopulationType
+typeOf: dcs:Property
+name: "denominatorPopulationType"
+domainIncludes: dcid:DivorceEvent
+rangeIncludes: dcid:DenominatorPopulationTypeEnum
+isProvisional: dcs:True
+
+Node: dcid:DenominatorPopulationTypeEnum
+typeOf: schema:Class
+subClassOf: dcs:Enumeration
+name: "DenominatorPopulationTypeEnum"
+isProvisional: dcs:True
+
+Node: dcid:MarriageEvent
+typeOf: dcid:DenominatorPopulationTypeEnum
+name: "Marriage Event"
+isProvisional: dcs:True
+
+Node: dcid:denominatorProp
+typeOf: dcs:Property
+name: "denominatorProp"
+domainIncludes: dcid:DivorceEvent
+rangeIncludes: dcid:Property
+isProvisional: dcs:True
+
+Node: dcid:divorceRate
+typeOf: dcs:Property
+name: "divorceRate"
+rangeIncludes: dcid:DivorceRateEnum
+isProvisional: dcs:True
+
+# Define the type class for your custom enum
+Node: dcid:DivorceRateEnum
+typeOf: dcs:Class
+subClassOf: dcs:Enumeration
+name: "DivorceRateEnum"
+description: "Enumeration types for divorce rate categories"
+
+# Define the property itself, making sure rangeIncludes points to your new class
+Node: dcid:divorceRate
+typeOf: dcs:Property
+name: "divorceRate"
+domainIncludes: dcs:StatisticalVariable
+rangeIncludes: dcs:DivorceRateEnum
+description: "Property indicating the specific breakdown or indicator type for divorce statistics."
+
+Node: dcid:Eurostat
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat"
+description: "Data collection and processing methodology managed by Eurostat."
+
+Node: dcid:divorceRate
+typeOf: dcs:Property
+name: "divorceRate"
+domainIncludes: dcs:StatisticalVariable, dcs:StatisticalPopulation, dcs:Person
+rangeIncludes: dcs:DivorceRateEnum
+description: "Property indicating the specific breakdown or indicator type for divorce statistics."

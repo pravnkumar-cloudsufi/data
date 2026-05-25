@@ -1,0 +1,25 @@
+# Auto generated using command: "tools/statvar_importer/stat_var_processor.py --input_data=sdmx/Divorce_indicators/Divorce_indicators_data_raw.csv --pv_map=sdmx/Divorce_indicators/sample_output/output_pvmap_cleaned.csv --config_file=sdmx/Divorce_indicators/sample_output/output_metadata.csv --generate_statvar_name=True --skip_constant_csv_columns=False --output_columns=observationDate,observationAbout,variableMeasured,value,observationPeriod,measurementMethod,unit,scalingFactor --output_path=sdmx/Divorce_indicators/final_output/output --places_resolved_csv=sdmx/places_resolved.csv --existing_statvar_mcf=gs://unresolved_mcf/scripts/statvar/stat_vars.mcf --maps_api_key=AIzaSyBKu8mX6XZx0UDk_EKtXTtzQFmiZtXAB30" on 2026-05-18 22:31:51.909441
+
+Node: dcid:Count_DivorceEvent
+typeOf: dcid:StatisticalVariable
+name: "Count Divorce Event"
+populationType: dcid:DivorceEvent
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+
+Node: dcid:Count_DivorceEvent_MarriageEvent_Count
+typeOf: dcid:StatisticalVariable
+name: "Count Divorce Event: Denominator Population Type Marriage Event, Denominator Prop Count"
+populationType: dcid:DivorceEvent
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+denominatorPopulationType: dcid:MarriageEvent
+denominatorProp: dcid:count
+
+Node: dcid:DivorceRate_Person
+typeOf: dcid:StatisticalVariable
+name: "Divorce Rate Person"
+populationType: dcid:Person
+measuredProperty: dcid:divorceRate
+statType: dcid:measuredValue
+

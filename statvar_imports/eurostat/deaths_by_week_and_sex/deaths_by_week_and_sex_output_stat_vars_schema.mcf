@@ -1,0 +1,247 @@
+Node: dcid:mortalityStatus
+typeOf: dcs:Property
+name: "mortalityStatus"
+domainIncludes: dcid:Person
+rangeIncludes: dcid:MortalityStatusEnum
+isProvisional: dcs:True
+
+Node: dcid:MortalityStatusEnum
+typeOf: schema:Class
+subClassOf: dcs:Enumeration
+name: "MortalityStatusEnum"
+isProvisional: dcs:True
+
+Node: dcid:Deceased
+typeOf: dcid:MortalityStatusEnum
+name: "Deceased"
+isProvisional: dcs:True
+
+Node: dcid:observationStatus
+typeOf: dcs:Property
+name: "observationStatus"
+domainIncludes: dcid:Person
+rangeIncludes: dcid:ObservationStatusEnum
+isProvisional: dcs:True
+
+Node: dcid:ObservationStatusEnum
+typeOf: schema:Class
+subClassOf: dcs:Enumeration
+name: "ObservationStatusEnum"
+isProvisional: dcs:True
+
+Node: dcid:Provisional
+typeOf: dcid:ObservationStatusEnum
+name: "Provisional"
+isProvisional: dcs:True
+
+Node: dcid:EurostatWeekly_Week01
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 01"
+
+Node: dcid:EurostatWeekly_Week02
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 02"
+
+Node: dcid:EurostatWeekly_Week03
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 03"
+
+Node: dcid:EurostatWeekly_Week04
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 04"
+
+Node: dcid:EurostatWeekly_Week05
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 05"
+
+Node: dcid:EurostatWeekly_Week06
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 06"
+
+Node: dcid:EurostatWeekly_Week07
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 07"
+
+Node: dcid:EurostatWeekly_Week08
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 08"
+
+Node: dcid:EurostatWeekly_Week09
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 09"
+
+Node: dcid:EurostatWeekly_Week10
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 10"
+
+Node: dcid:EurostatWeekly_Week11
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 11"
+
+Node: dcid:EurostatWeekly_Week12
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 12"
+
+Node: dcid:EurostatWeekly_Week13
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 13"
+
+Node: dcid:EurostatWeekly_Week14
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 14"
+
+Node: dcid:EurostatWeekly_Week15
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 15"
+
+Node: dcid:EurostatWeekly_Week16
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 16"
+
+Node: dcid:EurostatWeekly_Week17
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 17"
+
+Node: dcid:EurostatWeekly_Week18
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 18"
+
+Node: dcid:EurostatWeekly_Week19
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 19"
+
+Node: dcid:EurostatWeekly_Week20
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 20"
+
+Node: dcid:EurostatWeekly_Week21
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 21"
+
+Node: dcid:EurostatWeekly_Week22
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 22"
+
+Node: dcid:EurostatWeekly_Week23
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 23"
+
+Node: dcid:EurostatWeekly_Week24
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 24"
+
+Node: dcid:EurostatWeekly_Week25
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 25"
+
+Node: dcid:EurostatWeekly_Week26
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 26"
+
+Node: dcid:EurostatWeekly_Week27
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 27"
+
+Node: dcid:EurostatWeekly_Week28
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 28"
+
+Node: dcid:EurostatWeekly_Week29
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 29"
+
+Node: dcid:EurostatWeekly_Week30
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 30"
+
+Node: dcid:EurostatWeekly_Week31
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 31"
+
+Node: dcid:EurostatWeekly_Week32
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 32"
+
+Node: dcid:EurostatWeekly_Week33
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 33"
+
+Node: dcid:EurostatWeekly_Week34
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 34"
+
+Node: dcid:EurostatWeekly_Week35
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 35"
+
+Node: dcid:EurostatWeekly_Week36
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 36"
+
+Node: dcid:EurostatWeekly_Week37
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 37"
+
+Node: dcid:EurostatWeekly_Week38
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 38"
+
+Node: dcid:EurostatWeekly_Week39
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 39"
+
+Node: dcid:EurostatWeekly_Week40
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 40"
+
+Node: dcid:EurostatWeekly_Week41
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 41"
+
+Node: dcid:EurostatWeekly_Week42
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 42"
+
+Node: dcid:EurostatWeekly_Week43
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 43"
+
+Node: dcid:EurostatWeekly_Week44
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 44"
+
+Node: dcid:EurostatWeekly_Week45
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 45"
+
+Node: dcid:EurostatWeekly_Week46
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 46"
+
+Node: dcid:EurostatWeekly_Week47
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 47"
+
+Node: dcid:EurostatWeekly_Week48
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 48"
+
+Node: dcid:EurostatWeekly_Week49
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 49"
+
+Node: dcid:EurostatWeekly_Week50
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 50"
+
+Node: dcid:EurostatWeekly_Week51
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 51"
+
+Node: dcid:EurostatWeekly_Week52
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 52"
+
+Node: dcid:EurostatWeekly_Week53
+typeOf: dcs:MeasurementMethodEnum
+name: "Eurostat Weekly Method - Week 53"

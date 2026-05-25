@@ -1,0 +1,56 @@
+# Auto generated using command: "tools/statvar_importer/stat_var_processor.py --input_data=statvar_imports/eurostat/deaths_by_week_and_sex/input_files/deaths_by_week_and_sex_data_input.csv --pv_map=statvar_imports/eurostat/deaths_by_week_and_sex/deaths_by_week_and_sex_pvmap.csv --config_file=statvar_imports/eurostat/deaths_by_week_and_sex/deaths_by_week_and_sex_metadata.csv --generate_statvar_name=True --skip_constant_csv_columns=False --output_columns=observationDate,observationAbout,variableMeasured,value,observationPeriod,measurementMethod,unit --output_path=statvar_imports/eurostat/deaths_by_week_and_sex/deaths_by_week_and_sex_output --places_resolved_csv=statvar_imports/eurostat/deaths_by_week_and_sex/deaths_by_week_and_sex_places_resolved.csv --existing_statvar_mcf=gs://unresolved_mcf/scripts/statvar/stat_vars.mcf" on 2026-05-25 05:58:01.546388
+
+Node: dcid:Count_Person_Deceased
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Mortality Status Deceased"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+mortalityStatus: dcid:Deceased
+
+Node: dcid:Count_Person_Deceased_Provisional
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Mortality Status Deceased, Observation Status Provisional"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+mortalityStatus: dcid:Deceased
+observationStatus: dcid:Provisional
+
+Node: dcid:Count_Person_Female_Deceased
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Gender Female, Mortality Status Deceased"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+gender: dcid:Female
+mortalityStatus: dcid:Deceased
+
+Node: dcid:Count_Person_Female_Deceased_Provisional
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Gender Female, Mortality Status Deceased, Observation Status Provisional"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+gender: dcid:Female
+mortalityStatus: dcid:Deceased
+observationStatus: dcid:Provisional
+
+Node: dcid:Count_Person_Male_Deceased
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Gender Male, Mortality Status Deceased"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+gender: dcid:Male
+mortalityStatus: dcid:Deceased
+
+Node: dcid:Count_Person_Male_Deceased_Provisional
+typeOf: dcid:StatisticalVariable
+name: "Count Person: Gender Male, Mortality Status Deceased, Observation Status Provisional"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+gender: dcid:Male
+mortalityStatus: dcid:Deceased
+observationStatus: dcid:Provisional
